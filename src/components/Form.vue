@@ -33,7 +33,6 @@ export default {
             this.disabled = true
         },
         isDisabled() {
-            console.log(this.todo.item)
             if(this.todo.item) {
                 this.disabled = false
             } else {
