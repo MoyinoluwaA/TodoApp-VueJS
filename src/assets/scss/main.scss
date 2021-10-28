@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+
+.heading {
+    font-size: 72px;
+    letter-spacing: -0.04em;
+}
+
+.list-group-item {
+    background-color: lightblue;
+}
+
+.btn {
+    &-custom {
+        background-color: lightblue;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.text-strikethrough {
+    text-decoration: line-through; 
+}
