@@ -18,6 +18,10 @@ body {
     &:focus {
         box-shadow: none;
     }
+    &:disabled {
+        background-color: gray;
+        color: #FFF;
+    }
 }
 
 .text-strikethrough {
